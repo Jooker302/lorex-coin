@@ -16,12 +16,23 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.fixed {
+  position: fixed;
 }
+
+.left-0 {
+  left: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
