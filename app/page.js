@@ -49,21 +49,24 @@ export default function Home() {
           </div>
         </div>
         <div className="flex space-x-4">
-        <a className="m-2" href="https://t.me/pinkbird"><FontAwesomeIcon icon={faXTwitter} size="lg" style={{ color: '#ffffff', width: '24px', height: '24px' }} /></a>
-        <a className="m-2" href="https://t.me/pinkbird"><FontAwesomeIcon icon={faTelegram} size="lg" style={{ color: '#ffffff', width: '24px', height: '24px' }} /></a>
+        <a className="m-2" href="https://t.me/lorexchatofficial"><FontAwesomeIcon icon={faXTwitter} className='text-white hover:text-[#264F51]' size="lg" style={{ width: '24px', height: '24px' }} /></a>
+        <a className="m-2" href="https://t.me/lorexchatofficial"><FontAwesomeIcon className='text-white hover:text-[#264F51]' icon={faTelegram} size="lg" style={{ width: '24px', height: '24px' }} /></a>
         </div>
       </div>
       {isMenuOpen && (
         <nav className="absolute top-full left-0 bg-gray-800 p-4">
           <ul className="list-none">
             <li className="mb-2">
-              <a href="#" className="text-white hover:text-gray-400">Menu Item 1</a>
+              <a href="#intro" className="text-white hover:text-[#264F51]">Home</a>
             </li>
             <li className="mb-2">
-              <a href="#" className="text-white hover:text-gray-400">Menu Item 2</a>
+              <a href="#about-section" className="text-white hover:text-[#264F51]">About</a>
             </li>
             <li>
-              <a href="#" className="text-white hover:text-gray-400">Menu Item 3</a>
+              <a href="#team-section" className="text-white hover:text-[#264F51]">Team</a>
+            </li>
+            <li>
+              <a href="https://t.me/lorexchatofficial" className="text-white hover:text-[#264F51]">Telegram</a>
             </li>
           </ul>
         </nav>
@@ -104,7 +107,9 @@ export default function Home() {
 
 
 
-
+<footer className="bg-gray-800 py-4 text-center font-bold text-white">
+      <p>Listed on Binance Smart Chain</p>
+    </footer>
 
 
 
