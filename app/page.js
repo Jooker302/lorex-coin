@@ -73,7 +73,7 @@ if (isLoading) {
             <li className="mb-2">
               <a href="#about-section" className="text-white hover:text-[#264F51]">About</a>
             </li>
-            <li>
+            <li className='mb-2'>
               <a href="#team-section" className="text-white hover:text-[#264F51]">Team</a>
             </li>
             <li>
