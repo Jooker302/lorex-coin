@@ -63,8 +63,8 @@ const TeamSection = () => {
         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">Our Team</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {teamMembers.map((member, index) => (
-            <a href={member.link}>
-            <div key={index} className="flex flex-col items-center">
+            <a href={member.link} key={index}>
+            <div  className="flex flex-col items-center">
               <img
                 src={member.image}
                 alt={member.name}
