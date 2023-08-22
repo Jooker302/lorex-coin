@@ -5,11 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter,faTelegram } from '@fortawesome/free-brands-svg-icons';
 import FeaturesSection from '@/components/FeaturesSection';
 import TeamSection from '@/components/TeamSection';
+import Loader from '@/components/Loader';
 
 export default function Home() {
 
  
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
 
 
 
@@ -31,6 +33,15 @@ export default function Home() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 3000);
+
+
+if (isLoading) {
+  return <Loader />;
+}
 
   return (
     <>
