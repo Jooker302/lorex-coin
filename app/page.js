@@ -3,6 +3,8 @@ import Image from 'next/image'
 import { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter,faTelegram } from '@fortawesome/free-brands-svg-icons';
+import FeaturesSection from '@/components/FeaturesSection';
+import TeamSection from '@/components/TeamSection';
 
 export default function Home() {
 
@@ -95,6 +97,9 @@ export default function Home() {
   </div>
 </section>
 
+
+<FeaturesSection/>
+<TeamSection/>
 
 
 
