@@ -28,7 +28,7 @@ const FeaturesSection = () => {
       className={`bg-gray-100 py-12 px-4 ${isVisible ? 'slide-up active' : 'slide-up'}`}
     >
       <div className="container mx-auto flex flex-col items-center">
-        <h2 className="text-2xl font-bold text-gray-800 mb-6">Features</h2>
+        <h2 className="text-2xl font-bold text-gray-800 mb-6">Tokenomics</h2>
         <ul className="list-none p-0">
           <li className="mb-6">
             <div className="flex items-start">
