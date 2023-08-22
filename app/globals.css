@@ -16,23 +16,16 @@
   }
 }
 
-.fixed {
-  position: fixed;
+
+/* styles.css */
+.slide-in {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s, transform 0.5s;
 }
 
-.left-0 {
-  left: 0;
-}
-
-.top-0 {
-  top: 0;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.w-64 {
-  width: 16rem;
+.slide-in.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
